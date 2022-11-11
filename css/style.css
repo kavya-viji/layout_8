@@ -1,0 +1,120 @@
+.header .wrapper
+{
+	width:70%;
+    margin:auto;	
+}
+.content .wrapper
+{
+	width:70%;
+    margin:auto;	
+}
+  .description .wrapper
+{
+	width:70%;
+    margin:auto;	
+}
+.copyright .wrapper
+{
+	width:70%;
+    margin:auto;	
+}
+ .header
+{
+	background-color:MediumSeaGreen;
+	height:100px;
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .home
+{
+	margin-top:15px;
+	background-color:white;
+	width:20%;
+	height:70px;
+}
+.header .header-fc .login
+{
+	margin-top:15px;
+	background-color:white;
+	width:20%;
+	height:70px;
+}
+.content
+{
+	 background-color:khaki;
+	 height:500px;
+}
+.content .content-fc
+{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+}
+.content .content-fc .texta
+{
+	 margin-top:60px;
+	 background-color:purple;
+	 height:200px;
+	 width:100%;
+}
+.content .content-fc .more
+{ 	 
+	 margin-top:80px;
+	 background-color:purple;
+	 height:50px;
+	 width:10%;	 
+}
+.description
+{
+	 background-color:coral;
+	 height:900px; 
+}
+.description .description-fc
+{
+     display:flex;
+     flex-wrap:wrap;
+	 flex-direction:column;
+}
+.description .description-fc .pera
+{
+     margin-top:80px;
+     margin-left:700px;
+	 background-color:white;
+	 width:30%;
+	 height:200px; 
+}
+.description .description-fc .perb
+{
+     margin-top:80px;
+	 background-color:white;
+	 width:30%;
+	 height:200px; 
+}
+.description .description-fc .perc
+{
+     margin-left:700px;
+     margin-top:80px;
+	 background-color:white;
+	 width:30%;
+	 height:200px; 
+}
+.copyright
+{
+	 background-color:lightblue;
+	 height:116px; 
+}
+.copyright .copyright-fc
+{
+     display:flex;
+     justify-content:center;
+}
+.copyright .copyright-fc .copyrights
+{
+     margin-top:30px;
+	 background-color:red;
+	 width:20%;
+	 height:50px; 
+}
